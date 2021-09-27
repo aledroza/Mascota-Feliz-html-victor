@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Open Sans', 'sans-serif';
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+
+}
+header{
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(248, 222, 185, 0.5) 0%, rgba(252, 182, 159, 0.5) 100%), url(../img/asa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.head{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    color: white;
+}
+.form-register{
+    width: 400px;
+    background-color: #24303c;
+    padding: 70px;
+    margin-right: 600px;
+    margin-left: 500px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+ }
+ 
+ .form-register h4 {
+     font-size: 22px;
+     margin-bottom: 20px;
+     text-align: center;
+ }
+ 
+ .controls{
+     width: 100%;
+     background: #24303c;
+     padding: 10px;
+     border-radius: 4px;
+     margin-bottom: 16px;
+     border: 1px solid #1f53c5;
+     font-family: 'calibri';
+     font-size: 18px;
+     color: white;
+ }
+ 
+ .form-register p {
+     height: 40px;
+     text-align: center;
+     font-size: 18px;
+ }
+ 
+ .form-register a {
+     color: white;
+     text-decoration: none;
+ }
+ 
+ .form-register a:hover {
+     color: white;
+     text-decoration: underline;
+ }
+ .form-register .bottons {
+     width: 100%;
+     background: #1f53c5;
+     border: none;
+     padding: 12px;
+     color:white;
+     margin: 16px 0;
+     font-size: 16px;
+ }
+ 
+ 
+ 
+ .form-pet{
+     width: 400px;
+     background-color: #24303c;
+     padding: 42px;
+     margin-top: -560px;
+     margin-left: 980px;
+     border-radius: 4px;
+     font-family: 'calibri';
+     color: white;
+     box-shadow: 7px 13px 37px #000;
+ 
+ }
+ .form-pet h4{
+     font-size: 22px;
+     margin-bottom: 20px;
+     text-align: center;
+ }
+ .control{
+     width: 100%;
+     background: #24303c;
+     padding: 10px;
+     border-radius: 4px;
+     margin-bottom: 16px;
+     border: 1px solid #1f53c5;
+     font-family: 'calibri';
+     font-size: 18px;
+     color: white;
+ }
+ .form-pet p {
+     height: 40px;
+     text-align: center;
+     font-size: 18px;
+    
+ }
+ 
+ .form-pet a {
+     color: white;
+     text-decoration: none;
+ }
+ 
+ .form-pet a:hover {
+     color: white;
+     text-decoration: underline;
+ }
+ .form-pet .boton {
+     width: 100%;
+     background: #1f53c5;
+     border: none;
+     padding: 12px;
+     color:white;
+     margin: 16px 0;
+     font-size: 16px;
+ }
+ .menu{
+     position: fixed;
+     top: 30px;
+     right: 30px;
+     background: white;
+     width: 40px;
+     height: 40px;
+     cursor: pointer;
+     border-radius: 10px;
+     box-shadow: 0 0 7px rgba(248, 222, 185, 0.5);
+ }
+ .menu-navegacion{
+     position: fixed;
+     top: 0;
+     right: 0;
+     width: 10vw;
+     height: 100%;
+     background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+     transition: transform .3s ease-in-out;
+     box-shadow: 0 0 6px rgba(0, 0, 0, .5)
+     
+ }
+ .header:hover.menu-navegacion{
+     transform: translate(130%);
+ }
+ .Titulo{
+     font-size: 60px;
+     margin-bottom: 15px;
+     color: saddlebrown;
+ }
+ .copy{
+     font-weight: 300;
+     font-size: 25px;
+     color:saddlebrown;
+ }
+ .subtitulo{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 40px;
+    font-size: 60px;
+
+ }
+ .contenedor-servicio{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+ .contenedor-servicio img{
+     width: 55%;
+     position: center;
+ }
+ .checklist-servicio{
+     width: 45%;
+ }
+ .service{
+     margin-bottom: 7px;
+     color: #5a14ff;
+ }
+ .number{
+     font-display:inline-block;
+     background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 1200000%);
+     width: 40px;
+     height:40px;
+     color: white;
+     text-align: center;
+     border-radius: 50%;
+     font-weight: 700;
+     line-height: 125px;
+     margin-right: 10px;
+ }
+ .subtituloo{
+    text-align: center;
+    font-weight: normal;
+    color: black;
+    margin-bottom: 40px;
+    font-size: 40px;
+
+ }
